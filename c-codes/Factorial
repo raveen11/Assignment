@@ -1,0 +1,18 @@
+WAP to find the factorial of a given number N.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,fact,N;
+clrscr();
+printf(“N=”);
+scanf(“%d”,&N);
+fact=1;
+for(a=1; a<=N; a++)
+{
+fact=fact*a;
+}
+printf(“The factorial of N!:%d ”,fact);
+getch();
+}

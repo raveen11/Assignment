@@ -1,0 +1,17 @@
+WAP to input N and display all its divisors.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,N;
+clrscr();
+printf(“Enter N=”);
+scanf(“%d”,&N);
+printf(“\nAll the divisors are \n”);
+for(a=1; a<=N; a++)
+{
+if (N%a==0)
+printf(“%d is the divisor.\n”,a);
+}
+getch();
+}

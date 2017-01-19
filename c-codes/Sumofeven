@@ -1,0 +1,17 @@
+WAP to read first 20 numbers and display only sum of even numbers.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,sum;
+clrscr();
+sum=0;
+for (a=1; a<=20; a++)
+{
+if (a%2==0)
+sum=sum+a;
+}
+printf(“The sum of even numbers only is:%d”,sum);
+getch();
+}

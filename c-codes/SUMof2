@@ -1,0 +1,15 @@
+WAP to find the sum of two given numbers.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,sum;
+clrscr();
+printf(“Enter first number \n”);
+scanf(“%d”,&a);
+printf(“Enter second number \n”);
+scanf(“%d”,&b);
+sum=a+b;
+printf(“The sum of two numbers is %d”,sum);
+getch();
+}
